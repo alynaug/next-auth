@@ -20,5 +20,6 @@ export const generateVerificationToken = async (email: string) => {
     },
   });
 
+  console.log("token item generated");
   return verificationToken;
 };
